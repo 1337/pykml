@@ -8,9 +8,8 @@ KML objects with the appropriate namespace prefixes.
 .. _lxml: http://lxml.de
 .. _lxml's ElementMaker factory: http://lxml.de/objectify.html#tree-generation-with-the-e-factory
 '''
-
-from lxml import etree, objectify
 from __future__ import print_function
+from lxml import etree, objectify
 
 nsmap={
     None: "http://www.opengis.net/kml/2.2",
