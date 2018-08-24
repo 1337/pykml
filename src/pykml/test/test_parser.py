@@ -1,3 +1,5 @@
+from __future__ import print_function
+
 import unittest
 from os import path
 import urllib2
@@ -6,8 +8,6 @@ from lxml import etree
 from pykml.parser import Schema
 from pykml.parser import fromstring
 from pykml.parser import parse
-
-from __future__ import print_function
 
 class ValidatorTestCase(unittest.TestCase):
     
