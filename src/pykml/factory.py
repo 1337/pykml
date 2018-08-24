@@ -10,6 +10,7 @@ KML objects with the appropriate namespace prefixes.
 '''
 
 from lxml import etree, objectify
+from __future__ import print_function
 
 nsmap={
     None: "http://www.opengis.net/kml/2.2",
@@ -213,4 +214,4 @@ def kml2pykml():
                 pass #variable was not defined
             else:
                 f.close
-    print write_python_script_for_kml_document(doc)
+    print(write_python_script_for_kml_document(doc))
