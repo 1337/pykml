@@ -7,6 +7,7 @@ from pykml.parser import Schema
 from pykml.parser import fromstring
 from pykml.parser import parse
 
+from __future__ import print_function
 
 class ValidatorTestCase(unittest.TestCase):
     
